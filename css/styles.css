@@ -16,7 +16,6 @@ header {
 }
 
 .topSection {
-  height: 532px;
   background-image: url(/assets/bg/background-top.svg);
 }
 
@@ -67,10 +66,10 @@ section {
 }
 
 .intro {
-  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 200px;
+  justify-content: center;
 }
 
 .introText {
@@ -126,7 +125,7 @@ section {
 .cal {
   position: relative;
   top: 350px;
-  left: 360px;
+  left: 300px;
   animation: cal 0.85s 0.1s linear;
 }
 
@@ -262,13 +261,13 @@ section {
 }
 
 .pricingChart {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 10%;
-  padding: 0 30px;
+  padding-left: 30px;
   margin-top: 40px;
 }
 
@@ -276,7 +275,6 @@ section {
   display: flex;
   flex-direction: column;
   width: 370px;
-  height: 452px;
   box-shadow: 0 3px 3px 3px lightgray;
   padding: 30px;
 }
@@ -334,7 +332,6 @@ section {
   display: flex;
   flex-direction: column;
   width: 227px;
-  height: 219px;
 }
 
 .priceTable p {
@@ -416,7 +413,6 @@ section {
 .hireForm {
   background-color: white;
   color: black;
-  height: 85%;
   width: 40%;
   border-radius: 10px;
   padding: 10px 30px;
