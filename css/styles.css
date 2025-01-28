@@ -207,7 +207,7 @@ section {
 }
 
 .testText {
-  width: 70%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -478,10 +478,10 @@ form > div {
 }
 
 footer {
-  margin: -100px 0 0 30px;
+  margin: -100px 0 0 50px;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: row;
-  gap: 100px;
 }
 
 .footerContact {
@@ -500,7 +500,6 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  height: 20px;
 }
 
 .footerContact i {
